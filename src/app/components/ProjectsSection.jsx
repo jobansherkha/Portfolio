@@ -52,13 +52,14 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    title: "FrontlineProtective.ca ",
+    description: "Bussines website for my client",
+    image: "/images/projects/Capture.png",
+    tag: ["All", "Wordpress"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "http://frontlineprotective.ca",
   },
+ 
 ];
 
 const ProjectsSection = () => {
@@ -93,6 +94,16 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Web"
+          isSelected={tag === "Web"}
+        />
+         <ProjectTag
+          onClick={handleTagChange}
+          name="Wordpress"
+          isSelected={tag === "Web"}
+        />
+         <ProjectTag
+          onClick={handleTagChange}
+          name="landing pages"
           isSelected={tag === "Web"}
         />
        
