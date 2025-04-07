@@ -59,6 +59,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "http://frontlineprotective.ca",
   },
+  {
+    id: 7,
+    title: "Hightechsecurity.ca ",
+    description: "Bussines website for my client",
+    image: "/images/hightech.png",
+    tag: ["All", "Wordpress"],
+    gitUrl: "/",
+    previewUrl: "http://hightechsecurity.ca",
+  },
  
 ];
 

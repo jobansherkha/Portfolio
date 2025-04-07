@@ -21,6 +21,7 @@ const TAB_DATA = [
       <li>Redux</li>
       <li>MongoDb</li>
       <li>Python</li>
+      <li>Wordpress</li>
     </ul>
     ),
   },
